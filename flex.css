@@ -1,0 +1,189 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin: 10px;
+}
+
+/* Task 1 */
+
+.flexOne {
+    display: flex;
+}
+
+.flexOne .square {
+    margin: 5px;
+}
+
+/* Task 2 */
+
+.flexTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexTwo .square {
+    margin: 2px;
+}
+
+/* Task 3 */
+
+.flexThree {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+   
+}
+
+.flexThree .square {
+    margin: 2px;
+}
+
+/* Task 4 */
+
+.flexFour {
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+   
+}
+
+.flexFour .square {
+    background-color: #3d8b6d;
+    margin: 5px;
+    
+}
+
+/* Task 5 */
+
+.flexFive {
+    display: flex;
+    width: 350px;
+}
+
+.flexFive .item {
+    background-color: #0b6643;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+#grow {
+    flex-grow: 2;
+}
+
+/* Task 6 */
+
+.flexSix {
+    width: 500px;
+    height: 400px;
+    background-color: #f1f1f1;
+}
+
+.flexSix .one {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.flexSix .two {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+    margin-bottom: 50px;
+}
+
+.flexSix .three {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Task 7 */
+
+.flexSeven {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    background-color: #f1f1f1;
+}
+
+.flexSeven .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.flexSeven .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #d6d6d6;
+    margin-right: 50px;
+}
+
+.flexSeven .three {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 20px;
+}
+
+.flexSeven .four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+}
+
+/* Task 8 */
+
+.flexEight {
+    height: 400px;
+    width: 300px;
+    background-color: #eeeeee;
+}
+
+.flexEight .one {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+} 
+
+.flexEight .two {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.flexEight .three {
+    display: flex;
+    justify-content: center;
+}
+
+/* Task 9 */
+
+.flexNine {
+    display: flex;
+    width: 450px;
+    height: 250px;
+    background-color: #eeeeee;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#special {
+    display: flex;
+    align-self: flex-end;
+}
+
+
+
+
+
+
+
+
